@@ -6,7 +6,7 @@
 
         public string FormatWithMask(string cnpj)
         {
-            if (string.IsNullOrEmpty(cnpj) || cnpj.Length != CNPJLength) return string.Empty;
+            if (string.IsNullOrEmpty(cnpj) || !IsValidLength(cnpj)) return string.Empty;
             return Convert.ToUInt64(cnpj).ToString(@"00\.000\.000\/0000\-00");
         }
 
