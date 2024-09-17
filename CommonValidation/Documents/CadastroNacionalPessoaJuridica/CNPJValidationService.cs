@@ -1,7 +1,7 @@
-﻿using CommonValidation.Useful;
-
-namespace CommonValidation.Documents.CadastroNacionalPessoaJuridica
+﻿namespace CommonValidation.Documents.CadastroNacionalPessoaJuridica
 {
+    using CommonValidation.Useful;
+
     public class CNPJValidator
     {
         private const int CNPJLength = 14;

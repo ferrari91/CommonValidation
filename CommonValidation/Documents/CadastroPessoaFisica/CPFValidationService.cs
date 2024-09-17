@@ -1,7 +1,7 @@
-﻿using CommonValidation.Useful;
-
-namespace CommonValidation.Documents.CadastroPessoaFisica
+﻿namespace CommonValidation.Documents.CadastroPessoaFisica
 {
+    using CommonValidation.Useful;
+
     public class CPFValidationService
     {
         private const int CPFLength = 11;

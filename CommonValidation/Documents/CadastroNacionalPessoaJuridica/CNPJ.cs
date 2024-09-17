@@ -1,11 +1,4 @@
-﻿using CommonValidation.Documents.CadastroPessoaFisica;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CommonValidation.Documents.CadastroNacionalPessoaJuridica
+﻿namespace CommonValidation.Documents.CadastroNacionalPessoaJuridica
 {
     public class CNPJ
     {
